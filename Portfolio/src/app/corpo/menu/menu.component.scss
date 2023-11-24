@@ -1,0 +1,127 @@
+body {
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(to right, #1e1253, #c31432);
+  background: linear-gradient(to right, #180f44,#c31432 );
+  color:black;
+
+}
+
+
+  .top-nav ul {
+    list-style: none; /* Remove os bullets */
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-nav {
+    background-color: rgb(38, 43, 116);
+    text-align: center;
+  }
+
+  .menuzinho {
+    display: table;  
+    width: 100%;
+    max-width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+
+a {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #302ca1;
+  font-size: 2em;
+}
+
+  a:hover {
+    color: #272394;
+    text-decoration: none;
+  }
+
+  a:before, a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    background: #4541b4;
+  }
+
+  a:before {
+    left: 0;
+  }
+
+  a:after {
+    right: 0;
+    background: #4541b4;
+    transition: 0.8s cubic-bezier(0.22, 0.61, 0.36,1);
+  }
+
+  a:hover:before {
+    width: 100%;
+    background: #4541b4;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36,1);
+  }
+
+  a:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
+.top-header clearfix {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.top-header {
+  text-align: center; 
+}
+.top-nav {
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav ul {
+  list-style: none; /* Remove os bullets */
+  margin: 0;
+  /* padding: 1em 0; */
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav a {
+  color: #4541b4;
+  text-decoration: none; /* Remove o sublinhado */
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+ul.top-nav {
+  background-color: transparent;
+}
+
+
